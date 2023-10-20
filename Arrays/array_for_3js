@@ -1,0 +1,32 @@
+const notas = [7, 8, 6, 7, 8, 10, 8, 7]
+
+// Para percorrer todo os array sem necessariamente eu criar uma variavel de controle
+
+
+// Essa expressão foi para percorrer todos os valores definidos
+let valores = ""
+
+for (let nota of notas) {
+   valores += nota + " "
+   
+}
+
+console.log(valores)
+
+// Eu fiz isso pq a variável exibi os valores na vertical, e eu somo a um espaço, e vai dar certo pois vou somar "" ao percurso dos array.
+
+
+const numeros = [1, 2, 3, 4, 5]
+let ferramenta = ""
+for (let numero of numeros) {
+   ferramenta += numero + ", "
+  
+}
+
+console.log(ferramenta)
+
+
+
+
+
+
